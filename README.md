@@ -18,7 +18,7 @@ A web viewer for [Last30Days](https://github.com/mvanhorn/last30days-skill) rese
 
 ## Prerequisites
 
-- [Last30Days skill](https://github.com/mvanhorn/last30days-skill) installed (for data collection)
+- [Last30Days skill](https://github.com/mvanhorn/last30days-skill) installed (for data collection). See its README for setting up API keys for X/Twitter, Reddit, YouTube, TikTok, etc.
 - Node.js 18+
 - Python 3.10+
 - Anthropic API key (optional, for AI summaries)
@@ -33,10 +33,10 @@ npm install
 cp .env.local.example .env.local
 # Edit .env.local with your ANTHROPIC_API_KEY
 
-# Run a research query to generate data
+# Optional - can also do from the webapp
 python3 scripts/run-last30days.py "NVDA stock"
 
-# Parse the results into JSON for the webapp
+# Optional - can also do from the webapp
 python3 scripts/parse-last30days.py
 
 # Start the dev server
