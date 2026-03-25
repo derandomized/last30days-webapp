@@ -2,6 +2,12 @@
 
 A web viewer for [Last30Days](https://github.com/mvanhorn/last30days-skill) research reports. Browse Reddit, X/Twitter, YouTube, and Hacker News sources with AI-powered executive summaries.
 
+## Screenshots
+
+| Document List | Source Detail | AI Summary | New Run |
+|:---:|:---:|:---:|:---:|
+| ![List](docs/list.png) | ![Detail](docs/detail-iran.png) | ![Summary](docs/summary.png) | ![New Run](docs/new-run.png) |
+
 ## Features
 
 - **Source browser** — Reddit, X, YouTube, HN items as styled cards with thumbnails, engagement metrics, and direct links
